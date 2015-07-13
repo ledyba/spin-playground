@@ -1,6 +1,6 @@
 # Spin Playground
 
-(Spin)[http://spinroot.com/spin/whatispin.html] is a a popular open-source software verification tool.
+[Spin](http://spinroot.com/spin/whatispin.html) is a a popular open-source software verification tool.
 
 ```bash
 ./spin -f '![]p' > not_p.ltl
@@ -123,7 +123,7 @@ pan: elapsed time 0.01 seconds
 
 となり、破られることがわかる。
 
-＜LTLによるモデル検査＞
+## LTLによるモデル検査
 上記ではassertを使っているが、LTLによる記述も行うことができる。
 まず、LTLをPromelaモデルに変換する。この時に「みたしたい性質の否定」を入力しなければならない。
 
